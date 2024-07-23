@@ -1,0 +1,151 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-style: italic;
+
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #b8b7b5fa;
+    position: fixed;
+    width: 100%;
+}
+nav> ul{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    list-style: none;
+}
+nav >img{
+    width: 50px;
+    height: 60px;
+
+}
+nav>ul>a{
+    color: honeydew;
+    text-decoration: none;
+}
+nav>ul>a:hover{
+    color: rgba(3, 11, 1, 0.744);
+}
+.icon{
+    margin-right: 10px;
+}
+.dropdowncontent{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(231, 240, 240, 0.756);
+    min-width: 200px;
+    padding-top: 10px;
+    border-radius: 10px;
+
+}
+.dropdownbutton{
+    cursor: pointer;
+}
+.dropdown:hover .dropdowncontent{
+    display: block; 
+}
+.dropdown{
+    position: relative;
+}
+.dropdowncontent a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(4, 4, 4);
+}
+.dropdowncontent a:hover{
+    background-color: rgba(164, 170, 174, 0.717);
+}
+#grocery{
+    background-image: url("https://w0.peakpx.com/wallpaper/728/926/HD-wallpaper-retail-partners-food-bank-demo-site-grocery-store.jpg");
+    background-size: cover;
+    height: 600px;
+    width: auto;
+    background-attachment: fixed;
+}
+#grocery >h1{
+    text-align: center;
+
+    padding-top: 300px;
+}
+#about{
+    max-width: 600px;
+    margin: auto;
+    padding: 100px  0px ;
+
+}
+footer{
+    background-color: azure;
+ padding-top: 100px;    
+}
+.location{
+    font-size: 80px;
+}
+#footerparent{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+.telephone{
+    font-size: 80px;
+}
+.email{
+    font-size: 80px;
+}
+.footersubparent{
+    text-align: center;
+}
+#lastfooter{
+    text-align: center;
+}
+.contactus{
+    padding: 100px;
+}
+.contactuspara{
+    padding-top: 20px;
+}
+.formdiv{
+    display: flex;
+
+}
+.formdiv>div{
+    padding-top: 20px;
+    /* padding-left: 20px; */
+    width: 50%;
+
+}
+input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+button{
+    padding: 5px 30px;
+    background-color: rgba(35, 130, 212, 0.906);
+    color: hwb(180 99% 0%);
+    margin-top: 10px;
+}
+.whatsapp{
+    position: fixed;
+    right: 0%;
+    z-index: 1;
+    bottom: 100px;
+}
+.whatsapp i{
+    font-size: 80px;
+}
+.arrowdiv{
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.arrowdiv i{
+    font-size: 30px;
+}
